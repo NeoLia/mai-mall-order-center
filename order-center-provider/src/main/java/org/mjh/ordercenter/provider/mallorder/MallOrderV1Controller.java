@@ -22,7 +22,7 @@ public class MallOrderV1Controller {
     /**
      * Get mall order by order no.
      * @param orderNo - Order no.
-     * @return BaseResult<MallOrder> - Return a BaseResult object.
+     * @return BaseResult<MallOrderVo> - Return a BaseResult object.
      */
     @GetMapping("/orderNo/{orderNo}")
     public BaseResult<MallOrderVo> getMallOrderByOrderNo(@PathVariable("orderNo") String orderNo) {

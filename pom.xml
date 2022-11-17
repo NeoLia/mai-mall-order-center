@@ -12,11 +12,13 @@
         <module>order-center-provider</module>
         <module>order-center-common</module>
         <module>order-center-service</module>
+        <module>order-center-dao</module>
     </modules>
 
     <properties>
         <ordercenter.common.version>1.0-SNAPSHOT</ordercenter.common.version>
         <ordercenter.service.version>1.0-SNAPSHOT</ordercenter.service.version>
+        <ordercenter.dao.version>1.0-SNAPSHOT</ordercenter.dao.version>
         <springboot.version>2.3.12.RELEASE</springboot.version>
         <lombok.version>1.18.24</lombok.version>
     </properties>

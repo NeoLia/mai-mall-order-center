@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>order-center-service</artifactId>
+    <artifactId>order-center-dao</artifactId>
 
     <dependencies>
         <dependency>
@@ -21,11 +21,6 @@
             <groupId>org.mjh</groupId>
             <artifactId>order-center-common</artifactId>
             <version>${ordercenter.common.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mjh</groupId>
-            <artifactId>order-center-dao</artifactId>
-            <version>${ordercenter.dao.version}</version>
         </dependency>
     </dependencies>
 </project>
